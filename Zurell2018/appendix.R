@@ -72,7 +72,6 @@ sim.Dist = function(L=100,rhoA=0.3,rhoB=0.3,Ia=0,Ib=0,output='all',agg=NULL) {
     names(agg.l.true) <- paste0("agg", agg)
   
     #---------------------------------------------------------------------------------------
-    ---------
       # output
   
       if (output == "all") {
